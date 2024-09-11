@@ -281,7 +281,7 @@ Login Succeeded
 You need to change the username accoringly in the below command
 
 ```
-docker build -t abhishekf5/my-first-docker-image:latest .
+docker build -t saikumar018/saikumar:latest.
 ```
 
 Output of the above command
@@ -344,7 +344,7 @@ Hello World
 ### Push the Image to DockerHub and share it with the world
 
 ```
-docker push abhishekf5/my-first-docker-image
+docker push saikumar018/saikumar:latest
 ```
 
 Output
