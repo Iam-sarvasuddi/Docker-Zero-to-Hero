@@ -224,7 +224,7 @@ To grant access to your user to run the docker command, you should add the user 
 ```
 sudo usermod -aG docker ubuntu
 ```
-
+we need to restart after granting permisions (logout and again login)
 In the above command `ubuntu` is the name of the user, you can change the username appropriately.
 
 **NOTE:** : You need to logout and login back for the changes to be reflected.
