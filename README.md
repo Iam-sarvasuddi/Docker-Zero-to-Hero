@@ -332,9 +332,9 @@ hello-world                        latest    feb5d9fea6a5   16 months ago    13.
 ### Run your First Docker Container
 
 ```
-docker run -it abhishekf5/my-first-docker-image
+docker run -it saikumar018/my-first-image
 ```
-
+here saikumar018 is the login name of the dockerhub .we have to give login name follow up with any name that will cretae a repository with that name (my-first-image)
 Output
 
 ```
@@ -344,7 +344,7 @@ Hello World
 ### Push the Image to DockerHub and share it with the world
 
 ```
-docker push saikumar018/saikumar:latest
+docker push saikumar018/my-first-image:latest
 ```
 
 Output
